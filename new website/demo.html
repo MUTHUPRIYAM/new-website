@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column{
+            width: 50%;
+        }
+        .add h1{
+            color: blue;
+        }
+        .social h1{
+            color: red;
+        }
+        .main{
+            display: flex;
+        }
+        /* Use a media query to add a breakpoint at 800px: */
+       @media screen and (max-width: 800px) {
+      .main{
+    display: block;
+  }
+  
+}
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="row main">
+            <div class="column add">
+             <h1>HELLO</h1>
+            </div>
+            <div class="column social">
+                <h1>HIII</h1>
+            </div>
+            <div class="column ">
+                <h1>HOW R U</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
